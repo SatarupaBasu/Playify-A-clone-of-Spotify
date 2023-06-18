@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../group-2/group-2/KANAKA"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "KANAKA"
+	}
+}
