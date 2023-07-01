@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
-    background-color: hsla(39, 30%, 79%, 0.979);
+    background-image: url('bg1.jpeg');
 }
 
 *{
@@ -69,6 +69,21 @@ nav ul li{
     cursor: pointer;
 }
 
+.btn{
+    position: absolute;
+    display: flex;
+    right: 250px;
+    bottom: 35px;
+    background:transparent;
+    border: none;
+    outline:none;
+    color:white;
+    flex-direction:column;
+}
+.btn i:hover{
+    cursor: pointer;
+}
+
 #myProgressBar{
     width: 80vw; 
     cursor: pointer;
@@ -76,24 +91,38 @@ nav ul li{
 
 .songItemContainer{
     margin-top: 74px;
+   
+}
+.btns{
+   position:static;
+   border:none;
+   outline:none;
+   
 }
 
+.btns i:hover {
+  cursor:pointer;
+}
+.fa-heart{
+    color:#11dd0d;
+}
 .songItem{
     height: 50px;
     display: flex;
     background-color: white;
-    
     color: black;
     margin: 12px 0;
     justify-content: space-between;
     align-items: center;
     border-radius: 34px;
+    
 }
 
 .songItem img{
-    width: 43px;
+    width: 45px;
     margin: 0 23px;
     border-radius: 34px;
+    
 }
 
 .timestamp{
