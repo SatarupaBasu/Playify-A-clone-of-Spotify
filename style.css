@@ -148,4 +148,23 @@ nav ul li{
     body {
       background-color: red;
     }
+    .container{
+        max-width:2500px;
+    }
+    .songItem{
+       height: 120px;
+       max-width:2600px;
+    }
+    .songlistplay{
+      display: flex;
+    }
+    .icons{
+        display: flex;
+        margin-top:55px;
+        gap: 15px;
+    }
+   .bottom{
+    display: flex;
+   }
+   
   }
